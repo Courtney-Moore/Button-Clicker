@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Header with search bar-->
+    <header class=flexed>
+        <div class="titlebox">
+            <h1>Dojoary</h1>
+        </div>
+        <div class="searchbar">
+            <input type="search" placeholder="search here">
+        </div>
+        <div class="pressme">
+            <button onclick="logout(this)">Login</button>
+        </div>
+    </header>
+    <!--Left side of the wepage-->
+    <div class="general flexedtwo">
+        <main>
+            <!--top left box-->
+            <div class="deffone flexedtwo">
+                <div class="verbnbutton">
+                    <div class="textbox">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <br>
+                        <p>Plural:ninjas</p>
+                    </div>
+                    <button onclick="likealert(this)">13 likes</button>
+                </div>
+                <div class="box">
+                    <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                </div>
+            </div>
+            <!--bottom left box-->
+            <div class="defftwo flexedtwo">
+                <div class="verbnbuttontwo">
+                    <div class="textbox">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <br>
+                        <p>Plural:ninjas</p>
+                    </div>
+                    <button onclick="likealert(this)" > 37 likes</button>
+                </div>
+                <div class="seconddeff">
+                
+                <p>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                </div>
+            </div>
+        </main>
+        <!--Right side of the webpage-->
+        <aside>
+            <div class="lastbox">
+                <h1>Dojonary is defined by YOU</h1>
+                <div class="lastbutton">
+                <div class="boxbutton3">
+                <button onclick="hide(this)">Add Definition</button>
+            </div>
+            </div>
+            </div>
+        </aside>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
